@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>airbnb</title>
+   <style>
+      *{
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         text-decoration:none;
+      }
+
+      ul{
+         list-style: none;
+      }
+
+      li{
+         border:0;
+         float: left; 
+         margin-right: 12px;  
+         font-size: 18px;
+      }
+
+      .pink{
+         width: 1200px;
+         height: 300px;
+         /*background-color: #FA00FF;*/
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      .pink .logo{
+         width: 175px;
+         height: 70px;
+      }
+
+      .pink .logo img {
+         width: 155px;
+         height: 48px;
+      }
+
+      .pink .nav_1{
+         width:586px; 
+         height:70px;
+         
+         /*background-color: red;  */
+      }
+   
+      .pink .banner_1{
+         width: 1200px;
+         height: 80px;
+         background-image: url(https://i.postimg.cc/W1pqzZds/page1-3-mainbanner.jpg);
+         background-size: contain;
+         text-align: center;
+         font-size: 20px; 
+         margin-top: 26px; 
+      }
+
+      .red{
+         width: 1200px;
+         height: 158px;
+         /*background-color: #FF2020;*/
+         margin-left: auto;
+         margin-right: auto;
+      }  
+
+      .red #nav_2{
+         text-align: center;
+      }
+
+      .orange{
+         width: 1200px;
+         height: 1310px;
+         /*background-color: #FF9900;*/
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      .orange .card_1{
+         width: 380px; 
+         height: 370px;
+         display: inline-block;
+         margin-right: 16px; 
+         margin-left: 0;
+         background-color: white;
+      } 
+      .orange .card_1 img{
+         height: 280px;
+         display: inline-block;
+
+      } 
+
+      .orange .card_1 h3{
+         text-align: right;
+      }
+
+      .yellow{
+         width: 1200px;
+         height: 108px;
+         /*background-color: #FFD600;*/
+         margin-left: auto;
+         margin-right: auto;
+      }
+      .lime{
+         width: 1200px;
+         height: 1130px;
+         /*background-color: #BDFF50;*/
+         margin-left: auto;
+         margin-right: auto;
+      }
+
+      .lime .card_2{
+         display: inline-block;      
+      }
+
+      .lime .card_2 img{
+         width: 585px;
+         height: 400px;
+      }
+
+      .lime .card_2 h3{
+         text-align: right;
+      }
+
+      .green{
+         width: 1200px;
+         height: 108px;
+         /*background-color: #00C208;*/
+         margin-left: auto;
+         margin-right: auto;
+      }      
+      .bluesky{
+         width: 1200px;
+         height: 750px;
+         /*background-color: #00F0FF;*/
+         margin-left: auto;
+         margin-right: auto;
+      }      
+      .bluesky .card_3{
+         width: 381px;
+         height: 650px;
+         display: inline-block;
+      }   
+
+     .bluesky .card_3 h4{
+         text-align: right;
+      }
+
+      .bluesky .card_3 h2 h3{
+         text-align: center;
+         margin-top: 20px;
+      }
+
+      .bluesky .card_3 img{
+       width: 381px;
+         height: 280px; 
+      }
+
+      .blue{
+         width: 1200px;
+         height: 244px;
+         /*background-color: blue;*/
+         margin-left: auto;
+         margin-right: auto;
+         text-align: center;
+         color: black;
+         text-decoration: none;
+
+   </style>
+</head>
+
+<body>
+   <div class="pink">
+      <a href="#" class="logo"><img src="https://i.postimg.cc/SN26Dz6S/1280px-Airbnb-Logo-B-lo-svg.png" alt="airbnb"></a>
+      <ul id="nav_1">
+        <li><a href="#">어디든</a></li>
+        <li><a href="#">언제든</a></li>
+        <li><a href="#">누구든</a></li>
+      </ul>
+      <a href="#" class="menu"><img src="" alt=""></a>
+      <div class="banner_1">
+         <p>국내 최초! Airbnb만의 유럽 비건 여행, 코스 확인하고 숙박 할인 받자 ~</p>
+      </div>
+   </div>
+   
+
+   <div class="red">
+      <div class="options_1">
+         <p>숙소 컨셉 옵션 선택</p>
+      </div>
+      <ul id="nav_2">
+        <li><a href="#">지형</a></li>
+        <li><a href="#">자연환경</a></li>
+        <li><a href="#">외관</a></li>
+        <li><a href="#">인테리어</a></li>
+        <li><a href="#">부가적 요소</a></li>
+        <li><a href="#">스포츠</a></li>        
+      </ul>
+      <div class="options_2">
+         <p>별점순</p>
+      </div>
+   </div>
+
+   <div class="orange">
+      <div class="card_1">
+         <img src="https://i.postimg.cc/SxLBjFb0/page1-1-1.jpg" width="380">
+         <div class="description">
+         <h2>Ernen, 스위스</h2>
+         <p>$164.98   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>
+      <div class="card_1">
+         <img src="https://i.postimg.cc/kgc7zt4t/page1-1-2.jpg" width="380">
+         <div class="description">
+         <h2>꼬트레, 프랑스</h2>
+         <p>$147.31   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>      
+      <div class="card_1">
+      <img src="https://i.postimg.cc/sgwRwd6Y/page1-1-3.jpg" width="380">
+         <div class="description">
+         <h2>suomussalmi, 핀란드</h2>
+         <p>$150.25   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>
+      <div class="card_1">
+         <img src="https://i.postimg.cc/QCp27RKW/page1-1-4.jpg" width="380">
+         <div class="description">
+         <h2>El Nido, 필리핀</h2>
+         <p>$140.49   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>
+      <div class="card_1">
+         <img src="https://i.postimg.cc/k4W1YWJ0/page1-1-5.jpg" width="380">
+         <div class="description">
+         <h2>Hangzhou, 중국</h2>
+         <p>$139.74   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>    
+      <div class="card_1">
+         <img src="https://i.postimg.cc/SQ71WLt8/page1-1-6.jpg" width="380">
+         <div class="description">
+         <h2>Llanafan, 영국</h2>
+         <p>$155.68   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>      
+      <div class="card_1">
+         <img src="https://i.postimg.cc/MK3DD90c/page1-1-7.jpg" width="380">
+         <div class="description">
+         <h2>Treminis, 프랑스</h2>
+         <p>$159.65   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>
+      <div class="card_1">
+         <img src="https://i.postimg.cc/P5BMGNRT/page1-1-8.jpg" width="380">
+         <div class="description">
+         <h2>Grundarfjörður, 아이슬란드</h2>
+         <p>$158.23   /박</p>
+         </div>
+         <div class="booking">
+            <h3>예약</h3>
+         </div>
+      </div>     
+      <div class="card_1">
+         <img src="https://i.postimg.cc/bvc1CWZv/page1-1-9.jpg" width="380">
+         <div class="description">
+         <h2>Nugara, 오스트레일리아</h2>
+         <p>$178.73   /박</p>
+         </div>
+         <div class="booking_1">
+            <h3>예약</h3>
+         </div>
+      </div>          
+   </div>
+
+   <div class="yellow">
+       <div class="options_1">
+         <p>내 취향 키워드</p>
+      </div>
+      <ul id="nav_2">
+        <li><a href="#">혼자서</a></li>
+        <li><a href="#">친구와</a></li>
+        <li><a href="#">커플끼리</a></li>
+        <li><a href="#">가족과</a></li>
+        <li><a href="#">로맨틱한</a></li>
+        <li><a href="#">고급스러운</a></li>  
+        <li><a href="#">전통적인</a></li>
+        <li><a href="#">현대적인</a></li>
+        <li><a href="#">심플한</a></li>                 
+      </ul>
+   </div>
+
+   <div class="lime">
+      <div class="card_2">
+         <img src="https://i.postimg.cc/xjh83HJf/page1-2-1.jpg" width="585">
+         <div class="description">
+         <h2>Nugara, 오스트레일리아</h2>
+         <p>$189.28   /박</p>
+         </div>
+         <div class="booking_2">
+            <h3>예약</h3>
+         </div>
+      </div>  
+      <div class="card_2">
+         <img src="https://i.postimg.cc/HnyphZcp/page1-2-2.jpg" width="585">
+         <div class="description">
+         <h2>Vestervig, 덴마크</h2>
+         <p>$167.24   /박</p>
+         </div>
+         <div class="booking_2">
+            <h3>예약</h3>
+         </div>
+      </div>
+      <div class="card_2">
+         <img src="https://i.postimg.cc/65CZ7zjJ/page1-2-3.jpg" width="585">
+         <div class="description">
+         <h2>T. Bophut A., 태국</h2>
+         <p>$159.02   /박</p>
+         </div>
+         <div class="booking_2">
+            <h3>예약</h3>
+         </div>
+      </div>
+      <div class="card_2">
+         <img src="https://i.postimg.cc/DwM773r2/page1-2-4.jpg" width="585">
+         <div class="description">
+         <h2>Terrasini, 이탈리아</h2>
+         <p>$182.11   /박</p>
+         </div>
+         <div class="booking_2">
+            <h3>예약</h3>
+         </div>
+      </div>                      
+   </div>
+
+   <div class="green">
+      <div class="subtitle">
+         <h2>추천 여행지, 금주의 B&B PICK!</h2>
+      </div>
+   </div>
+
+   <div class="bluesky">
+      <div class="card_3">
+         <img src="https://i.postimg.cc/Dyp9Xd86/page1-3-1.jpg" width="380">
+         <div class="advantages">
+            <h3>나만의 프라이핏한 공간, 풀빌라</h3>
+            <h3>오롯이 우리만 이용하는 전용 수영장</h3>
+            <h3>테라스에 펼쳐지는 드넓은 오션뷰</h3>
+         </div>
+         <div class="description">
+         <h2>Koh Samui, 태국</h2>
+         <p>$135.31   /박</p>
+         </div>
+         <div class="booking_3">
+            <h4>예약</h4>
+         </div>
+      </div>
+      <div class="card_3">
+         <img src="https://i.postimg.cc/bwGKHDnh/page1-3-2.jpg" width="380">
+         <div class="advantages">
+            <h3>방 5개와 화장실 2개, 그리고  다락방까지</h3>
+            <h3>넓은 정원과 바베큐 이용가능한 야외 테라스</h3>
+            <h3>관광지를 다 즐길 수 있는 최적의 위치</h3>
+         </div>
+         <div class="description">
+         <h2>샌프란시스코, 캘리포니아,  미국</h2>
+         <p>$143.22   /박</p>
+         </div>
+         <div class="booking_3">
+            <h4>예약</h4>
+         </div>
+      </div>
+      <div class="card_3">
+         <img src="https://i.postimg.cc/ydKtHLb1/page1-3-3.jpg" width="380">
+         <div class="advantages">
+            <h3>이런 건 본 적 없을 걸? 3층 통나무 하우스</h3>
+            <h3>자연 속에서 즐기는 유니크한 힐링</h3>
+            <h3>안전하게 즐기자! 24시간 풀경비 시스템</h3>
+         </div>
+         <div class="description">
+         <h2>Tanay, 필리핀</h2>
+         <p>$186.27   /박</p>
+         </div>
+         <div class="booking_3">
+            <h4>예약</h4>
+         </div>
+      </div>                  
+   </div>
+
+   <div class="blue">
+      <ul id="info_1">
+         <li><a href="#">© 2022 Airbnb, Inc.</a></li>
+         <li><a href="#">· 개인정보 처리방침</a></li>
+         <li><a href="#">· 이용약관</a></li>
+         <li><a href="#">· 사이트맵</a></li>
+         <li><a href="#">· 한국의 변경된 환불 정책</a></li>
+         <li><a href="#">· 회사</a></li>                 
+      </ul>
+      <p>웹사이트 제공자 : Airbnb Ireland UC </p>
+   </div>
+</body>
+</html>
